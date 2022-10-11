@@ -1,13 +1,6 @@
 import java.util.Scanner;
 
 public class Company {
-	/* 	CSC 205: <14709> / <Online>
-	Minilab: <Minilab 2>
-	Author(s): <Joel Wells> & <35934052>
-	Description: <This program models a tracking system for employees at a company. We will use it to hire new employees,
-	change their salaries, track hours worked per week, then send out paychecks.> 
-*/
-	
 	public static void main(String[] args) {
 		
 		//Variable Data Declaration
