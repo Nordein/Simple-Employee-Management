@@ -35,7 +35,7 @@ public class Company {
 			System.out.println("B. List all Employees");
 			System.out.println("C. Give an Employee a raise");
 			System.out.println("D. Give Paychecks");
-			System.out.println("E. Change someone’s hours");
+			System.out.println("E. Change someoneâ€™s hours");
 			System.out.println("F. Quit");
 			
 			userChoice = scnr.next();
@@ -111,11 +111,9 @@ public class Company {
 				employeeName = scnr.nextLine();
 				Cnt = 0;	
 				//For loop to find the name match of employeeName and if succesful, give them a raise
-				for (int i = 0; i < employeeArray.length; ++i) {
-					//Applies a raise to the employee based on user input to hourly workers			
+				for (int i = 0; i < employeeArray.length; ++i) {	
 					if (employeeArray[i] != null ) {
 						if (employeeArray[i].getName().equals(employeeName)) {
-							//Applies a raise to the employee based on user input to salary workers
 							System.out.println("What raise do you want to give them?");
 							giveRaise = scnr.nextDouble();
 							//Ensures an employee gets a positive raise.
